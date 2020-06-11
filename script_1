@@ -6,4 +6,4 @@ entity="artist"
 id="83d91898-7763-47d7-b03b-b92132375c47"
 format="json"
 
-wget -U "${user_agent}" -qO- "${base_url}/${entity}/${id}?fmt=json"
+wget -U "${user_agent}" -qO- "${base_url}/${entity}/${id}?fmt=${format}"
