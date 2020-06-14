@@ -1,6 +1,7 @@
 # sh_scripts
 
-## Personal collection of scripts that do stuff (All kinds of stuff), written in order to learn/exercise shell
+## Personal collection of scripts that do stuff (All kinds of stuff)
+## written in order to learn/exercise shell
 
 ** script_1 **
 
