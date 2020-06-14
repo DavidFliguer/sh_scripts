@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# List of strings, each one is a command
+my_list_of_commands=("ls" "pwd" "whoami")
+
+# Pick a random value between 0 and 2, it will be used for setting the content of the file
+my_random_index_for_command=$(( $RANDOM % 3 ))
+
+# Pick a random value, will be the name of the file
+my_random_index_name=$RANDOM
+
+# Create a text file with a command as content
+echo ${my_list_of_commands[$my_random_index_for_command]} > $my_random_index_name.sh
+
+# Give permissions
+chmod 555 $my_random_index_name.sh
+
+# Execute
+bash $my_random_index_name.sh
+
+# Delete
+rm -rf $my_random_index_name.sh 
