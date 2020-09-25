@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Write Hi to a file 10 times (Sleeping 10s between each time)
+# Running in background with &
+for i in {1..10}; do echo Hi >> result.txt; sleep 10s; done &
+
+# See the bottom of the file in real-time
+tail -f result.txt
