@@ -9,4 +9,8 @@ WGet to MusicBrainZ to get artist entity of Pink Floyd and output it to the scre
 
 ** script_2 **
 
-Given a list of string that each one is a linux command, randomly pick a command, create a sh file which content is the command, give permissions, execute it and then delete it
+Given a list of string in which each one is a linux command, randomly pick a command, create a sh file which content is the command, give permissions, execute it and then delete it
+
+** script_3 **
+
+Simulation of "real-time" logging by running in the background a loop that writes to a file and in the foreground execute tail command to that file
